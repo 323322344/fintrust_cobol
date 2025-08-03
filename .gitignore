@@ -1,0 +1,26 @@
+# ==== Ignore compiled binaries ====
+/bin/
+
+# ==== OS-specific ====
+.DS_Store
+Thumbs.db
+
+# ==== Backup or temp files ====
+*.bak
+*.tmp
+*.swp
+*~
+
+# ==== Logs ====
+*.log
+
+# ==== COBOL Intermediate files ====
+*.o
+*.lst
+*.mod
+*.exe
+
+# ==== IDE/project files ====
+.vscode/
+.idea/
+*.code-workspace
