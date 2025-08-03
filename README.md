@@ -2,7 +2,8 @@
 > 💼 A legacy-inspired fintech simulation built in COBOL for modern-day credibility and historic awareness.
 
 FinTrust COBOL is a minimalist COBOL-based finance simulation built to demonstrate the robustness and continued relevance of legacy financial systems. This repo simulates core banking operations like account creation, balance management, ledger summaries, and to demonstrate transaction processing using COBOL, the language still running trillions of dollars in global finance.
-This repo is strictly for educational and demonstrative purposes only. It is in no way, shape, or form a banking institution.
+
+> This repo is strictly for educational and demonstrative purposes only. It is in no way, shape, or form a banking institution.
 
 ---
 
