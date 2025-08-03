@@ -26,18 +26,6 @@ COBOL (Common Business-Oriented Language) powers most of the world's banking inf
 
 ---
 
-## 📂 Directory Structure
-
-fintrust-cobol/
-├── src/ # COBOL source files
-├── data/ # Flat file-based storage
-├── bin/ # Compiled executables
-├── docs/ # Technical documentation
-└── README.md # Project overview
-
----
-
-
 ## 🔧 Running the Project
 To compile a module:
 ```bash
