@@ -20,7 +20,7 @@ COBOL (Common Business-Oriented Language) powers most of the world's banking inf
 ---
 
 ## 🧰 Requirements
-- GnuCOBOL (install via `sudo apt install open-cobol` or `gnucobol`)
+- GnuCOBOL (install via `sudo apt install open-cobol` or `gnucobol3`)
 - Make or shell script (optional for automation)
 - A love for old-school elegance 🖥️
 
@@ -40,4 +40,4 @@ To run:
 ---
 
 ## 📖 Purpose
-**This repo is strictly for educational and demonstrative purposes only. It is in no way, shape, or form a banking institution.**
+This repo is strictly for **educational** and **demonstrative** purposes only. FinTrust COBOL is in no way, shape, or form a banking institution.
