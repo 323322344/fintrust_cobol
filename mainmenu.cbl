@@ -13,41 +13,54 @@
 
        *> Main program logic for FinTrust COBOL menu interface
        MAIN-PARAGRAPH.
-           DISPLAY "==========================================="
-           DISPLAY "      WELCOME TO FINTRUST COBOL             "
-           DISPLAY "==========================================="
-           DISPLAY " Please select an option:"
-           DISPLAY " 1 - Account Management"
-           DISPLAY " 2 - View Transactions"
-           DISPLAY " 3 - Ledger Summary"
-           DISPLAY " 4 - Authenticate User"
-           DISPLAY " 9 - Exit"
-           DISPLAY NEWLINE
-           ACCEPT USER-CHOICE
-           EVALUATE USER-CHOICE
-               WHEN 1
-                   DISPLAY ">> Loading Account Management Module..."
-                   PERFORM MOCK-PROGRAM *> Placeholder for future CALL statement
-               WHEN 2
-                   DISPLAY ">> Loading Transactions Module..."
-                   PERFORM MOCK-PROGRAM *> Placeholder for future CALL statement
-               WHEN 3
-                   DISPLAY ">> Loading Ledger Summary Module..."
-                   PERFORM MOCK-PROGRAM *> Placeholder for future CALL statement
-               WHEN 4
-                   DISPLAY ">> Starting Authentication Flow..."
-                   PERFORM MOCK-PROGRAM *> Placeholder for future CALL statement
-               WHEN 9
-                   DISPLAY ">> Exiting system. Goodbye! :)"
-                   STOP RUN
-               WHEN OTHER
-                   DISPLAY ">> Invalid choice. Please restart."
-                   STOP RUN
-           END-EVALUATE.
-           STOP RUN.
+           PERFORM UNTIL USER-CHOICE = 9
+               DISPLAY "==========================================="
+               DISPLAY "      WELCOME TO FINTRUST COBOL             "
+               DISPLAY "==========================================="
+               DISPLAY " Please select an option:"
+               DISPLAY " 1 - Account Management"
+               DISPLAY " 2 - View Transactions"
+               DISPLAY " 3 - Ledger Summary"
+               DISPLAY " 4 - Authenticate User"
+               DISPLAY " 9 - Exit"
+               ACCEPT USER-CHOICE
 
-       MOCK-PROGRAM.
-           DISPLAY ">> [This feature is in dev mode. ". 
-           DISPLAY "     I will replace MOCK-PROGRAM ".
-           DISPLAY "     with CALL statements in future modules.]"
-           EXIT.
+               EVALUATE USER-CHOICE
+                   WHEN 1
+                       PERFORM ACCOUNT-MANAGEMENT *> Placeholder for future CALL statement
+                   WHEN 2
+                       PERFORM VIEW-TRANSACTIONS *> Placeholder for future CALL statement
+                   WHEN 3
+                       PERFORM LEDGER-SUMMARY *> Placeholder for future CALL statement
+                   WHEN 4
+                       PERFORM AUTHENTICATE-USER *> Placeholder for future CALL statement
+                   WHEN 9
+                       DISPLAY ">> Exiting FinTrust COBOL. Goodbye! :)"
+                   WHEN OTHER
+                       DISPLAY ">> Invalid choice. Please restart."
+               END-EVALUATE
+           END-PERFORM.
+
+       ACCOUNT-MANAGEMENT.
+           DISPLAY ">> Loading Account Management Module..."           
+           DISPLAY ">> [This feature is in dev mode.".
+           DISPLAY "     I will replace MOCK-PROGRAM".
+           DISPLAY "     with CALL statements in future modules.]".
+
+       VIEW-TRANSACTIONS.
+           DISPLAY ">> Loading View Transactions Module..."
+           DISPLAY ">> [This feature is in dev mode.". 
+           DISPLAY "     I will replace MOCK-PROGRAM".
+           DISPLAY "     with CALL statements in future modules.]".
+
+       LEDGER-SUMMARY.
+           DISPLAY ">> Loading Ledger Summary Module..."
+           DISPLAY ">> [This feature is in dev mode.".
+           DISPLAY "     I will replace MOCK-PROGRAM".
+           DISPLAY "     with CALL statements in future modules.]".
+
+       AUTHENTICATE-USER.
+           DISPLAY ">> Loading Authenticate User Module..."
+           DISPLAY ">> [This feature is in dev mode.".
+           DISPLAY "     I will replace MOCK-PROGRAM".
+           DISPLAY "     with CALL statements in future modules.]".
