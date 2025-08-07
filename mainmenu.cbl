@@ -26,13 +26,17 @@
 
                EVALUATE USER-CHOICE
                    WHEN 1
-                       PERFORM ACCOUNT-MANAGEMENT *> Placeholder for future CALL statement
+                       DISPLAY ">> Loading Account Management Module..."
+                       CALL "ACCTMGMT"
                    WHEN 2
-                       PERFORM VIEW-TRANSACTIONS *> Placeholder for future CALL statement
+                       DISPLAY ">> Loading View Transactions Module..."
+                       CALL "VIEWTRANS"
                    WHEN 3
-                       PERFORM LEDGER-SUMMARY *> Placeholder for future CALL statement
+                       DISPLAY ">> Loading Ledger Summary Module..."
+                       CALL "LEDGERSM"
                    WHEN 4
-                       PERFORM AUTHENTICATE-USER *> Placeholder for future CALL statement
+                       DISPLAY ">> Loading Authenticate User Module..."
+                       CALL "AUTHUSER"
                    WHEN 9
                        DISPLAY ">> Exiting FinTrust COBOL. Goodbye! :)"
                    WHEN OTHER
@@ -40,26 +44,4 @@
                END-EVALUATE
            END-PERFORM.
 
-       ACCOUNT-MANAGEMENT.
-           DISPLAY ">> Loading Account Management Module..."           
-           DISPLAY ">> [This feature is in dev mode.".
-           DISPLAY "     I will replace MOCK-PROGRAM".
-           DISPLAY "     with CALL statements in future modules.]".
-
-       VIEW-TRANSACTIONS.
-           DISPLAY ">> Loading View Transactions Module..."
-           DISPLAY ">> [This feature is in dev mode.". 
-           DISPLAY "     I will replace MOCK-PROGRAM".
-           DISPLAY "     with CALL statements in future modules.]".
-
-       LEDGER-SUMMARY.
-           DISPLAY ">> Loading Ledger Summary Module..."
-           DISPLAY ">> [This feature is in dev mode.".
-           DISPLAY "     I will replace MOCK-PROGRAM".
-           DISPLAY "     with CALL statements in future modules.]".
-
-       AUTHENTICATE-USER.
-           DISPLAY ">> Loading Authenticate User Module..."
-           DISPLAY ">> [This feature is in dev mode.".
-           DISPLAY "     I will replace MOCK-PROGRAM".
-           DISPLAY "     with CALL statements in future modules.]".
+           STOP RUN.
