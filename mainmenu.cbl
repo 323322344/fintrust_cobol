@@ -7,7 +7,6 @@
        DATA DIVISION.
        WORKING-STORAGE SECTION.
        01 USER-CHOICE        PIC 9 VALUE ZEROS.
-       01 NEWLINE            PIC X VALUE X"0A".
 
        PROCEDURE DIVISION.
 
